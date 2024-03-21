@@ -1,0 +1,33 @@
+@import url(header.css);
+@import url(main.css);
+@import url(footer.css);
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+
+#header{
+    height: 100vh;
+    display: flex;
+    scroll-snap-align: start;
+    flex-direction: column;
+    scroll-snap-type: y mandatory;
+}
+
+#main section{
+    height: 100vh;
+    display: flex;
+    scroll-snap-align: start;
+    flex-direction: column;
+    scroll-snap-type: y mandatory;
+}

@@ -1,0 +1,7 @@
+@import url(about.css);
+@import url(personality.css);
+@import url(hobby.css);
+#main{
+    background-color:beige;
+}
+

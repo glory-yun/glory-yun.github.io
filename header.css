@@ -1,0 +1,37 @@
+.intro{
+    display: flex;
+    position: relative;
+    background-image: url(./picture/night.avif);
+    height: 100vh;
+    width: 100vw;
+    background-size : cover;
+    justify-content: center;
+    align-items: center;
+
+    backdrop-filter: brightness(60%);
+}
+
+.intro_letter{
+    font-size: 60px;
+    color: white;
+    gap: 10px;
+}
+
+.underbar{
+    margin-left: 5px;
+    height: 120px;
+    font-size: 90px;
+    color: white;
+}
+
+@keyframes blink {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.underbar {
+    animation-name: blink;
+    animation-duration: 350ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

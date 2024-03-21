@@ -1,0 +1,97 @@
+.personality {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+._personality {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    margin-top: 5%;
+
+}
+
+.personality_gauge {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.personality_gauge ul {
+    display: inflex;
+    flex-direction: column;
+    flex-grow: 1;
+    list-style: none;
+    font-size: 40px;
+    line-height: 100px;
+
+
+    justify-content: center;
+    align-items: center;
+}
+
+.personality_gauge ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar {
+    display: flex;
+    margin-left: 50px;
+    flex-grow: 0.5;
+    height: 1em;
+
+    border: 3px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.e, .s, .f, .j {
+    border-radius: 10px;
+    transition: 1000ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    font-size: 30px;
+}
+
+.e {
+    width: 70%;
+}
+
+.s {
+    width: 60%;
+}
+
+.f {
+    width: 40%;
+}
+
+.j {
+    width: 70%;
+}
+
+.bar:hover{
+    .e{
+        background-color: skyblue;
+        opacity: 1;
+    }
+    .s{
+        background-color: skyblue;
+        opacity: 1;
+    }
+    .f{
+        background-color: skyblue;
+        opacity: 1;
+    }
+    .j{
+        background-color: skyblue;
+        opacity: 1;
+    }
+}
