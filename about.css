@@ -17,9 +17,11 @@
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-    gap: 50px;
+    gap: 60px;
 }
+
 .my_img{
+    margin-left: 80px;
     background-image: url(./picture/me.jpg);
     height: 250px;
     width: 250px;
@@ -27,14 +29,15 @@
     box-shadow: 2px;
 
     border-radius: 50%;
-    border : solid 3px black;
+    border : 5px black;
+    border-style:dashed ;
 
     transition: 200ms;
 }
 
 .my_img:hover{
-    transform: scale(110%);
-
+    transform: rotateY(360deg);
+    transition-duration: 1000ms;
 }
 
 

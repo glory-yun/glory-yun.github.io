@@ -24,7 +24,7 @@ body{
     scroll-snap-type: y mandatory;
 }
 
-#main section{
+section{
     height: 100vh;
     display: flex;
     scroll-snap-align: start;

@@ -1,7 +1,12 @@
 @import url(about.css);
 @import url(personality.css);
 @import url(hobby.css);
+@import url(taste.css);
+
 #main{
     background-color:beige;
 }
 
+#footer{
+    background-color: blanchedalmond;
+}

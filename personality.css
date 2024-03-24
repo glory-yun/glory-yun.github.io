@@ -78,10 +78,13 @@
 }
 
 .bar:hover{
+    scale: calc(105%);    
+    
     .e{
         background-color: skyblue;
         opacity: 1;
     }
+    
     .s{
         background-color: skyblue;
         opacity: 1;
